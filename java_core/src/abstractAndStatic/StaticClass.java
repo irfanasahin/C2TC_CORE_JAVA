@@ -32,13 +32,12 @@ public class StaticClass {
 		// obj1.display();
 
 		Scanner sc1 = new Scanner(System.in);
-		
+
 		System.out.println("Enter your name-");
 		String str = sc1.nextLine();
-		
+
 		System.out.println("Enter your age-");
 		int number = sc1.nextInt();
-
 
 		StaticClass obj1 = new StaticClass(str, number);
 		obj1.display();
