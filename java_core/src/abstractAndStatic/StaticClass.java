@@ -3,8 +3,8 @@ package abstractAndStatic;
 import java.util.Scanner;
 
 public class StaticClass {
-	String name; // instance variable and object bound
-	int adhar; // instance variable and object bound
+	String name; 	// instance variable and object bound
+	int adhar;	 // instance variable and object bound
 	static String vaccine = "covidshield"; // static variable and class bound
 
 	// parameterize constructor of StaticClass

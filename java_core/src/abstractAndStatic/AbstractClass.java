@@ -15,7 +15,7 @@ class AbstractChild extends AbstractParent {
 		// System.out.println("Derived class constructor");
 	}
 }
-
+ 
 public class AbstractClass {
 
 	public static void main(String[] args) {

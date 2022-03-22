@@ -13,7 +13,7 @@ abstract class Abstract_demo {
 	}
 }
 
-// inheriting abstract class 
+// inheriting abstract class
 class Implement_demo extends Abstract_demo {
 
 	void methodA() {
