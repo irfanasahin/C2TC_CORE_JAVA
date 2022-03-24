@@ -8,6 +8,7 @@ abstract class Abstract_demo {
 
 	abstract void methodB(int num1, int num2);
 
+	//non-abstract method
 	void methodC() {
 		System.out.println("Instances method");
 	}
@@ -33,6 +34,7 @@ public class AbstractDemo {
 
 		obj.methodA();
 		obj.methodB(5, 7);
+		obj.methodC();
 
 		// We can use the reference of abstract class to create objects of other class.
 		Abstract_demo obj2 = new Implement_demo();

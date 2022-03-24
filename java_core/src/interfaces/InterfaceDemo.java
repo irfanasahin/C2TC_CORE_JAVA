@@ -2,10 +2,10 @@ package interfaces;
 
 /*
  * interface are use to implement abstraction in java
- * it contains abstract method
+ * it contains abstract method only
  */
 interface One {
-	void display_A();// abstract
+	void display_A();  // abstract method
 }
 
 interface Two {

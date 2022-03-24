@@ -37,5 +37,12 @@ public class ForLoop {
 //		***
 //		**
 //		*
+
+//4.
+// it will print i am condition once then execute the statement inside the loop
+		int x = 0;
+		for (System.out.println("a am condition"); x < 4; x++) {
+			System.out.println("i am inside loop");
+		}
 	}
 }

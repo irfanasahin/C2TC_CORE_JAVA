@@ -12,13 +12,19 @@ class AbstractChild extends AbstractParent {
 
 	AbstractChild(String str) {
 		super(str);
-		// System.out.println("Derived class constructor");
+		System.out.println("Derived class constructor");
+	}
+
+	public void methodMe() {
+		System.out.println("no argument");
 	}
 }
- 
+
 public class AbstractClass {
 
 	public static void main(String[] args) {
 		AbstractChild obj = new AbstractChild("i am coming form main");
+		obj.methodMe();
 	}
+
 }
