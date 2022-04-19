@@ -22,8 +22,8 @@ class MyThread extends Thread {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("my thread");
 			// Thread.yield();
-			
+
 		}
-		
+
 	}
 }
