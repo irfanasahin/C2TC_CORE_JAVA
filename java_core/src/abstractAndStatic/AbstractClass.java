@@ -12,7 +12,7 @@ class AbstractChild extends AbstractParent {
 
 	AbstractChild(String str) {
 		super(str);
-		System.out.println("Derived class constructor");
+		System.out.println("Derived class constructor" + " " + str);
 	}
 
 	public void methodMe() {
